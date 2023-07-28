@@ -12,6 +12,23 @@ yarn dev
 pnpm dev
 ```
 
+## Next.js Teslo Shop | Base de datos local en docker
+
+```
+  docker-compose up -d
+  
+```
+
+* El -d, significa __datached__
+
+## Configurando las variables de entorno:
+* MongoDB URL local: 
+```
+  MONGO_URL = mongodb://localhost:27017/teslodb
+
+```
+
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
